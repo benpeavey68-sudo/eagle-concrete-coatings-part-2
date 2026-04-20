@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f3f3f3",
+                    "tertiary-fixed": "#ffdad4",
+                    "tertiary-fixed-dim": "#ffb4a8",
+                    "inverse-primary": "#bfc2ff",
+                    "surface-container-high": "#e8e8e8",
+                    "secondary-fixed-dim": "#ffb4a8",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#fffbff",
+                    "outline-variant": "#c6c5d5",
+                    "on-secondary-fixed-variant": "#930100",
+                    "on-tertiary-container": "#d96756",
+                    "inverse-surface": "#2f3131",
+                    "surface-container-highest": "#e2e2e2",
+                    "tertiary-container": "#4d0000",
+                    "surface-container": "#eeeeee",
+                    "outline": "#767684",
+                    "secondary-fixed": "#ffdad4",
+                    "tertiary": "#220000",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed-variant": "#3239a3",
+                    "on-primary-container": "#777eea",
+                    "primary-fixed-dim": "#bfc2ff",
+                    "surface-tint": "#4b53bc",
+                    "surface-bright": "#f9f9f9",
+                    "primary": "#00003c",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary": "#bc0100",
+                    "background": "#f9f9f9",
+                    "secondary-container": "#eb0000",
+                    "primary-fixed": "#e0e0ff",
+                    "on-secondary-fixed": "#410000",
+                    "primary-container": "#000080",
+                    "on-primary": "#ffffff",
+                    "on-surface-variant": "#464653",
+                    "surface-dim": "#dadada",
+                    "on-surface": "#1a1c1c",
+                    "error": "#ba1a1a",
+                    "surface": "#f9f9f9",
+                    "on-tertiary-fixed-variant": "#82271c",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed": "#00006e",
+                    "on-tertiary": "#ffffff",
+                    "on-background": "#1a1c1c",
+                    "surface-variant": "#e2e2e2",
+                    "on-tertiary-fixed": "#410000"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3, .structural-label { font-family: 'Space Grotesk', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 rounded-none border-0 bg-[#00003c] dark:bg-black flex justify-between items-center px-10 py-6 max-w-full">
+<div class="text-2xl font-black text-white tracking-tighter font-['Space_Grotesk'] uppercase">
+            EAGLE CONCRETE COATING
+        </div>
+<div class="hidden md:flex gap-10 items-center">
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98]" href="../homepage_prototype_monolith_style/code.html">Home</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98]" href="../services_page_prototype_monolith_style/code.html">Services</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98]" href="../about_us_prototype/code.html">About Us</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98]" href="../gallery_prototype/code.html">Gallery</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-[#eb0000] border-b-4 border-[#eb0000] pb-1 scale-100 active:scale-[0.98]" href="../contact_us_prototype/code.html">Contact</a>
+</div>
+<button class="bg-[#eb0000] text-white px-8 py-3 font-['Space_Grotesk'] font-black uppercase tracking-tighter text-sm scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]">
+            GET A QUOTE
+        </button>
+</nav>
+<main class="pt-32 min-h-screen">
+<!-- Hero Section / Title -->
+<header class="px-10 mb-20">
+<div class="max-w-7xl mx-auto border-l-8 border-secondary-container pl-10">
+<h1 class="text-[5rem] md:text-[8rem] font-black uppercase leading-[0.85] tracking-tighter text-primary">
+                    COMMAND<br/>CENTRAL
+                </h1>
+<p class="mt-8 text-xl font-body max-w-2xl text-on-surface-variant uppercase tracking-widest">
+                    ESTABLISH STRUCTURAL CONNECTION. OUR INDUSTRIAL SOLUTIONS ARE READY FOR DEPLOYMENT.
+                </p>
+</div>
+</header>
+<!-- Main Layout: Asymmetric Bento Style -->
+<section class="px-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-0 border-t-8 border-primary">
+<!-- Contact Form Block (Concrete Slab) -->
+<div class="md:col-span-7 bg-surface-container-lowest p-10 md:p-16 border-r-0 md:border-r-8 border-primary">
+<h2 class="text-4xl font-black uppercase tracking-tighter mb-12 flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">terminal</span>
+                    Project Transmission
+                </h2>
+<form class="space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="relative">
+<label class="block text-xs font-black uppercase tracking-widest mb-2 text-outline">Name</label>
+<input class="w-full bg-surface-container-high border-0 border-b-4 border-transparent focus:border-primary focus:ring-0 rounded-none p-4 font-headline font-bold transition-all duration-300" placeholder="Full name" type="text"/>
+</div>
+<div class="relative">
+<label class="block text-xs font-black uppercase tracking-widest mb-2 text-outline">Email Address</label>
+<input class="w-full bg-surface-container-high border-0 border-b-4 border-transparent focus:border-primary focus:ring-0 rounded-none p-4 font-headline font-bold transition-all duration-300" placeholder="email@domain.com" type="email"/>
+</div>
+</div>
+<div class="relative">
+<label class="block text-xs font-black uppercase tracking-widest mb-2 text-outline">Phone</label>
+<input class="w-full bg-surface-container-high border-0 border-b-4 border-transparent focus:border-primary focus:ring-0 rounded-none p-4 font-headline font-bold transition-all duration-300" placeholder="+1 (000) 000-0000" type="tel"/>
+</div>
+<div class="relative">
+<label class="block text-xs font-black uppercase tracking-widest mb-2 text-outline">Project Details</label>
+<textarea class="w-full bg-surface-container-high border-0 border-b-4 border-transparent focus:border-primary focus:ring-0 rounded-none p-4 font-headline font-bold transition-all duration-300" placeholder="Describe the scope, surface area, and condition..." rows="6"></textarea>
+</div>
+<button class="w-full bg-secondary-container text-on-secondary font-black text-2xl uppercase py-6 tracking-tighter hover:bg-primary transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)] flex items-center justify-center gap-4" type="submit">
+                        SEND DATA
+                        <span class="material-symbols-outlined">send</span>
+</button>
+</form>
+</div>
+<!-- Side Info Panel -->
+<div class="md:col-span-5 flex flex-col">
+<!-- Contact Info Slab -->
+<div class="bg-primary-container text-on-primary p-12 flex-1">
+<h3 class="text-3xl font-black uppercase tracking-tighter mb-10 text-secondary-container">Infrastructure Location</h3>
+<div class="space-y-12">
+<div class="flex gap-6">
+<div class="bg-secondary-container w-12 h-12 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div>
+<h4 class="text-xs font-black uppercase tracking-[0.2em] mb-2 opacity-60">Headquarters</h4>
+<p class="text-xl font-headline font-bold leading-tight">
+    <a href="https://www.google.com/maps/search/?api=1&query=10350+Upper+196th+Way+W+Lakeville+MN+55044-8943" target="_blank" rel="noopener" class="underline">
+        10350 Upper 196th Way W<br/>Lakeville, MN 55044-8943
+    </a>
+</p>
+<p class="mt-2">
+    <a href="https://www.google.com/maps/search/?api=1&query=10350+Upper+196th+Way+W+Lakeville+MN+55044-8943" target="_blank" rel="noopener" class="inline-block bg-secondary-container text-white px-4 py-2 text-sm font-bold">Open in Google Maps</a>
+</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="bg-secondary-container w-12 h-12 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">call</span>
+</div>
+<div>
+<h4 class="text-xs font-black uppercase tracking-[0.2em] mb-2 opacity-60">Direct Line</h4>
+<p class="text-2xl font-headline font-bold"><a href="tel:+19527697905" class="text-2xl font-headline font-bold text-white">(952) 769-7905</a></p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="bg-secondary-container w-12 h-12 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">mail</span>
+</div>
+<div>
+<h4 class="text-xs font-black uppercase tracking-[0.2em] mb-2 opacity-60">Electronic Mail</h4>
+<p class="text-xl font-headline font-bold"><a href="mailto:eagleconcretecoatingsl.l.c@gmail.com" class="text-xl font-headline font-bold text-white">eagleconcretecoatingsl.l.c@gmail.com</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Secondary CTA Banner -->
+<section class="bg-secondary-container py-20 px-10 text-white overflow-hidden relative">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-10">
+<h2 class="text-4xl md:text-6xl font-black uppercase tracking-tighter text-left mb-8 md:mb-0">
+                    INDUSTRIAL STRENGTH<br/>IS NON-NEGOTIABLE.
+                </h2>
+<div class="flex flex-col items-end">
+<p class="text-right font-headline font-bold text-xl mb-6 max-w-sm uppercase">
+                        Our technicians are standby for site evaluation. Secure your facility's future.
+                    </p>
+<button class="bg-primary px-10 py-5 font-black uppercase tracking-tighter text-xl hover:bg-[#000080] transition-colors">
+                        REQUEST EVALUATION
+                    </button>
+</div>
+</div>
+<!-- Background Text Decoration -->
+<div class="absolute -bottom-10 -right-10 text-[15rem] font-black opacity-10 pointer-events-none select-none tracking-tighter leading-none">
+                EAGLE
+            </div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-none border-0 mt-20 bg-[#00003c] dark:bg-slate-950 px-10 py-16 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="text-xl font-black text-white font-['Space_Grotesk'] uppercase tracking-tighter">
+            EAGLE CONCRETE COATINGS
+        </div>
+<div class="text-white font-['Work_Sans'] text-sm uppercase tracking-widest text-center md:text-left opacity-60">
+            © 2025 EAGLE CONCRETE COATINGS. INDUSTRIAL STRENGTH GUARANTEED.
+        </div>
+<div class="flex gap-8">
+<a class="text-slate-400 font-['Work_Sans'] text-sm uppercase tracking-widest hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="text-slate-400 font-['Work_Sans'] text-sm uppercase tracking-widest hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="text-slate-400 font-['Work_Sans'] text-sm uppercase tracking-widest hover:text-white transition-colors" href="#">Warranty Information</a>
+</div>
+</footer>
+</body></html>

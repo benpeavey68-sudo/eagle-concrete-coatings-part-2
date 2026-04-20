@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f3f3f3",
+                    "tertiary-fixed": "#ffdad4",
+                    "tertiary-fixed-dim": "#ffb4a8",
+                    "inverse-primary": "#bfc2ff",
+                    "surface-container-high": "#e8e8e8",
+                    "secondary-fixed-dim": "#ffb4a8",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#fffbff",
+                    "outline-variant": "#c6c5d5",
+                    "on-secondary-fixed-variant": "#930100",
+                    "on-tertiary-container": "#d96756",
+                    "inverse-surface": "#2f3131",
+                    "surface-container-highest": "#e2e2e2",
+                    "tertiary-container": "#4d0000",
+                    "surface-container": "#eeeeee",
+                    "outline": "#767684",
+                    "secondary-fixed": "#ffdad4",
+                    "tertiary": "#220000",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed-variant": "#3239a3",
+                    "on-primary-container": "#777eea",
+                    "primary-fixed-dim": "#bfc2ff",
+                    "surface-tint": "#4b53bc",
+                    "surface-bright": "#f9f9f9",
+                    "primary": "#00003c",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary": "#bc0100",
+                    "background": "#f9f9f9",
+                    "secondary-container": "#eb0000",
+                    "primary-fixed": "#e0e0ff",
+                    "on-secondary-fixed": "#410000",
+                    "primary-container": "#000080",
+                    "on-primary": "#ffffff",
+                    "on-surface-variant": "#464653",
+                    "surface-dim": "#dadada",
+                    "on-surface": "#1a1c1c",
+                    "error": "#ba1a1a",
+                    "surface": "#f9f9f9",
+                    "on-tertiary-fixed-variant": "#82271c",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed": "#00006e",
+                    "on-tertiary": "#ffffff",
+                    "on-background": "#1a1c1c",
+                    "surface-variant": "#e2e2e2",
+                    "on-tertiary-fixed": "#410000"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Work Sans', sans-serif;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3, .nav-brand {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .monolith-shadow {
+            box-shadow: 0 10px 30px -15px rgba(0, 0, 60, 0.1);
+        }
+    </style>
+</head>
+<body class="text-on-background selection:bg-secondary-container selection:text-white">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 rounded-none border-0 bg-[#00003c] dark:bg-black flex justify-between items-center w-full px-10 py-6 max-w-full">
+<div class="text-2xl font-black text-white tracking-tighter uppercase font-['Space_Grotesk']">
+            EAGLE CONCRETE COATING
+        </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]" href="../homepage_prototype_monolith_style/code.html">Home</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]" href="../services_page_prototype_monolith_style/code.html">Services</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]" href="../about_us_prototype/code.html">About Us</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-[#eb0000] border-b-4 border-[#eb0000] pb-1 scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]" href="../gallery_prototype/code.html">Gallery</a>
+<a class="font-['Space_Grotesk'] font-black uppercase tracking-tighter text-white opacity-90 hover:bg-[#000080] hover:text-[#eb0000] transition-colors scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]" href="../contact_us_prototype/code.html">Contact</a>
+</div>
+<button class="bg-secondary-container text-on-secondary px-6 py-3 font-bold tracking-widest uppercase text-sm scale-100 active:scale-[0.98] transition-all duration-300 ease-[cubic-bezier(0.2,0,0,1)]">
+            GET A QUOTE
+        </button>
+</nav>
+<main class="pt-32">
+<!-- Hero / Section Title -->
+<section class="px-10 mb-20">
+<div class="max-w-7xl mx-auto">
+<span class="inline-block bg-secondary-container text-white px-4 py-1 text-xs font-bold tracking-[0.2em] uppercase mb-4">PROJECT SHOWCASE — Before/After Sliders</span>
+<h1 class="text-6xl md:text-8xl font-black text-primary leading-[0.9] tracking-tighter uppercase mb-6">
+                    INDUSTRIAL <br/> STRENGTH <br/> <span class="text-secondary">ESTHETICS</span>
+</h1>
+<p class="text-on-surface-variant max-w-3xl mt-4">Gallery features Before and After sliders and category filters </p>
+<div class="h-2 w-32 bg-primary"></div>
+</div>
+</section>
+<!-- Gallery Filter / Bento Grid Section -->
+<section class="px-10">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Main Feature Project (Asymmetrical Inset) -->
+<div class="md:col-span-8 relative group bg-primary p-1">
+<div class="relative overflow-hidden aspect-[16/9]">
+<img alt="Luxury Garage Floor" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="ultra-high-gloss metallic epoxy garage floor with deep blue and silver swirls in a luxury modern vehicle showroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5V8MCqb1SX6aqSIEo0Yh_SiSbMKbnb1urBKVta7C2m7mcgavh17mDGcvD8F_MXwYySA88w1Xm_M6RpMenrp-c4_tPTgshd_tA8C1rCy_4C8yaMndhb5p0nwKxMTWNDTkqe5tSGwHDCssbZUbA-LsTFU_dCKJMbRGOKg5E94sIk7v9QIfHOtXW8dyNCpX91mkcx5dJmv_TMm5uwM-dVW5E28d7gF5XKiaEc4A7-tVP66-V3RursDHaKO5CELgOyuPNwflC4Teo4gcC"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-60"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<h3 class="text-3xl font-black text-white uppercase tracking-tighter mb-2">PREMIUM METALLIC EPOXY</h3>
+<p class="text-white opacity-80 font-medium tracking-wide uppercase text-sm"></p>
+</div>
+</div>
+</div>
+<!-- Secondary Info Block (Text Only Monolith) -->
+<div class="md:col-span-4 bg-surface-container-high p-10 flex flex-col justify-center">
+<h2 class="text-4xl font-black text-primary uppercase tracking-tighter leading-none mb-6">BUILT TO LAST DECADES.</h2>
+<p class="text-on-surface-variant font-body text-lg leading-relaxed mb-8">
+                        Our coatings are meant to last a lifetime. 
+                    </p>
+<div class="flex items-center gap-2 text-secondary font-black uppercase tracking-widest text-sm">
+<span>EXPLORE SPECS</span>
+<span class="material-symbols-outlined">trending_flat</span>
+</div>
+</div>
+<!-- Grid Item: Basement -->
+<div class="md:col-span-4 group relative bg-surface-container overflow-hidden">
+<div class="aspect-square relative">
+<img alt="Modern Basement Coating" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="clean modern basement with polished concrete flooring reflecting soft recessed ceiling lighting in a minimalist home" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRNEIQtaQ_RUPUTmyzI0Ll3dJrq6dPniyou8rRsrrKiQ6j5b4yYpcQfz8jkGLxv3GvqfmEp7JLxtTReq-bTYRizDwPx8vhcPL4ATm38-rwHuO7u3zeND2ewMmBS47wL_INs6zcDV76YLRfNmQmxcCKg3T8kYzFaxYpHONtPuAVjhFyZ8sKUSfY7vPzojWj0dYOUkRYvLUMWA7Asu_EWG3Tsb3HHAUzSrsQmGNjsHcu9-wbtlc6xLOsH1UAcfq_UM8xJVMSw-XPR1Ys"/>
+<div class="absolute inset-0 border-8 border-transparent group-hover:border-secondary transition-all duration-300"></div>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-black text-primary uppercase tracking-tighter">BASEMENT REINVENTION</h4>
+<p class="text-xs text-outline uppercase font-bold tracking-widest mt-1">Dust-Proof / Waterproof</p>
+</div>
+</div>
+<!-- Grid Item: Patio -->
+<div class="md:col-span-4 group relative bg-surface-container overflow-hidden">
+<div class="aspect-square relative">
+<img alt="Patio Coating" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="outdoor luxury patio with decorative stamped concrete coating featuring a slate texture at dusk with warm exterior lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCORAwoEAxmZPG7ZRNk9kahLc-3xRAZQQGqbr_GOFvYy1n9KJ36w9O2fS0IoVTsBeLF96-4fMdQGtKt8tCpNbZL9dULjeI5ZEb7u3AyD4qynDaBx3WI2jQ6jeDVjq7gWP6xB_dpK5ONXPzFv_szDunoULWz9_3dQGcYPWfXLMa8efITpefYgh9id2T9D44kuMA0L8pWLTpxbM2dt00EfX6S_NSobbVCD4zJVU8kHaRvT2F7yc-ff9SlRwYmdCGi0ThgTVlo1IdmPur-"/>
+<div class="absolute inset-0 border-8 border-transparent group-hover:border-secondary transition-all duration-300"></div>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-black text-primary uppercase tracking-tighter">OUTDOOR PATIO SLATE</h4>
+<p class="text-xs text-outline uppercase font-bold tracking-widest mt-1">UV Resistant / Non-Slip</p>
+</div>
+</div>
+<!-- Grid Item: Commercial -->
+<div class="md:col-span-4 group relative bg-surface-container overflow-hidden">
+<div class="aspect-square relative">
+<img alt="Commercial Floor" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="large industrial warehouse floor with professional grey flake epoxy coating under bright overhead factory lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtO6tNhgV5oPBnuYNthzVy-0qwLossHC9PCxJ1vE7IcW7xE1fq5ZdRgSNLlruEe2S5UKI0KFoPS5Yh9xAVVt0FzY5UMZ4Llab7kpTWPQdsuZPbZL5n22x5THhFUr_wdQsgmf5QDi47lzM5_hIFVF8PZQQDyvB_1Al6yEaaHFIeiyW6gXBInoUshQUKuYYrOhMwIC2mevkrUbpz3s-060oRpsDuNx4cydAu9FQKrIDQS39P0Qw48-bkkAmAsc47TO4_5hBMQ_1tR-pY"/>
+<div class="absolute inset-0 border-8 border-transparent group-hover:border-secondary transition-all duration-300"></div>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-black text-primary uppercase tracking-tighter">INDUSTRIAL FLAKE SYSTEM</h4>
+<p class="text-xs text-outline uppercase font-bold tracking-widest mt-1">Impact Rated / Chemical Proof</p>
+</div>
+</div>
+<!-- CTA Row (Structural Inset) -->
+<div class="md:col-span-12 mt-12 bg-primary-container p-12 md:p-20 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-secondary opacity-10 -skew-x-12 translate-x-20"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
+<div class="max-w-2xl">
+<h2 class="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter leading-[0.9] mb-6">
+                                READY TO REINFORCE YOUR SURFACE?
+                            </h2>
+<p class="text-white opacity-70 text-lg uppercase tracking-wider">Schedule a structural assessment today.</p>
+</div>
+<button class="bg-secondary-container text-white px-10 py-5 text-xl font-black uppercase tracking-tighter hover:bg-secondary transition-colors">
+                            START YOUR PROJECT
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Details (Monolith Bricks) -->
+<section class="px-10 py-24 bg-surface-container-low mt-24">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white p-8 border-l-8 border-primary">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-icon="verified">verified</span>
+<h5 class="font-black text-primary uppercase text-sm mb-2">WARRANTY</h5>
+<p class="text-xs text-on-surface-variant font-medium">LIFETIME ADHESION GUARANTEE</p>
+</div>
+<div class="bg-white p-8 border-l-8 border-primary">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-icon="speed">speed</span>
+<h5 class="font-black text-primary uppercase text-sm mb-2">SPEED</h5>
+<p class="text-xs text-on-surface-variant font-medium">1-DAY INSTALLATION AVAILABLE</p>
+</div>
+<div class="bg-white p-8 border-l-8 border-primary">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-icon="shield">shield</span>
+<h5 class="font-black text-primary uppercase text-sm mb-2">STRENGTH</h5>
+<p class="text-xs text-on-surface-variant font-medium">4X STRONGER THAN STANDARD EPOXY</p>
+</div>
+<div class="bg-white p-8 border-l-8 border-primary">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-icon="brush">brush</span>
+<h5 class="font-black text-primary uppercase text-sm mb-2">CUSTOM</h5>
+<p class="text-xs text-on-surface-variant font-medium">12 Colors & Finshes</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-none border-0 mt-20 bg-[#00003c] dark:bg-slate-950 px-10 py-16 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col items-center md:items-start">
+<div class="text-xl font-black text-white uppercase tracking-tighter mb-2">EAGLE CONCRETE COATINGS</div>
+<p class="text-slate-400 font-['Work_Sans'] text-xs uppercase tracking-widest text-center md:text-left">
+                © 2025 EAGLE CONCRETE COATINGS. INDUSTRIAL STRENGTH GUARANTEED.
+            </p>
+</div>
+<div class="flex gap-8">
+<a class="font-['Work_Sans'] text-sm uppercase tracking-widest text-slate-400 hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="font-['Work_Sans'] text-sm uppercase tracking-widest text-slate-400 hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="font-['Work_Sans'] text-sm uppercase tracking-widest text-slate-400 hover:text-white transition-colors" href="#">Warranty Information</a>
+</div>
+<div class="flex gap-4">
+<div class="w-10 h-10 bg-primary-container flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-white text-xl">share</span>
+</div>
+<div class="w-10 h-10 bg-primary-container flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-white text-xl">thumb_up</span>
+</div>
+</div>
+</footer>
+</body></html>
