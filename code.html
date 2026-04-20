@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-fixed": "#ffdad4",
+                    "surface": "#f9f9f9",
+                    "on-error": "#ffffff",
+                    "on-primary-container": "#777eea",
+                    "error-container": "#ffdad6",
+                    "primary-fixed-dim": "#bfc2ff",
+                    "on-secondary-container": "#fffbff",
+                    "surface-bright": "#f9f9f9",
+                    "primary-container": "#000080",
+                    "surface-container-low": "#f3f3f3",
+                    "surface-container": "#eeeeee",
+                    "on-surface": "#1a1c1c",
+                    "inverse-on-surface": "#f1f1f1",
+                    "tertiary-container": "#4d0000",
+                    "on-tertiary-container": "#d96756",
+                    "secondary-fixed-dim": "#ffb4a8",
+                    "on-tertiary-fixed": "#410000",
+                    "inverse-surface": "#2f3131",
+                    "on-tertiary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "primary": "#00003c",
+                    "error": "#ba1a1a",
+                    "on-error-container": "#93000a",
+                    "secondary": "#bc0100",
+                    "on-background": "#1a1c1c",
+                    "inverse-primary": "#bfc2ff",
+                    "outline": "#767684",
+                    "on-secondary-fixed-variant": "#930100",
+                    "surface-tint": "#4b53bc",
+                    "surface-dim": "#dadada",
+                    "tertiary": "#220000",
+                    "on-primary-fixed": "#00006e",
+                    "secondary-container": "#eb0000",
+                    "background": "#f9f9f9",
+                    "secondary-fixed": "#ffdad4",
+                    "tertiary-fixed-dim": "#ffb4a8",
+                    "surface-container-high": "#e8e8e8",
+                    "outline-variant": "#c6c5d5",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-secondary-fixed": "#410000",
+                    "primary-fixed": "#e0e0ff",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed-variant": "#3239a3",
+                    "on-surface-variant": "#464653",
+                    "surface-variant": "#e2e2e2",
+                    "on-tertiary-fixed-variant": "#82271c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .monolith-gradient {
+            background: linear-gradient(45deg, #00003c 0%, #000080 100%);
+        }
+        .text-heavy {
+            letter-spacing: -0.02em;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 rounded-none bg-[#00003c] dark:bg-[#00003c] border-b-4 border-[#eb0000] flex justify-between items-center px-6 py-4 max-w-none">
+<div class="text-2xl font-black tracking-tighter text-white font-headline">EAGLE CONCRETE</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-headline uppercase tracking-tighter font-bold text-white hover:text-[#eb0000] transition-colors" href="../homepage_prototype_monolith_style/code.html">HOME</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-white hover:text-[#eb0000] transition-colors" href="../services_page_prototype_monolith_style/code.html">SERVICES</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-white hover:text-[#eb0000] transition-colors" href="../about_us_prototype/code.html">ABOUT</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-white hover:text-[#eb0000] transition-colors" href="../gallery_prototype/code.html">GALLERY</a>
+<a class="font-headline uppercase tracking-tighter font-bold text-white hover:text-[#eb0000] transition-colors" href="../contact_us_prototype/code.html">CONTACT</a>
+</div>
+<button class="bg-secondary-container text-on-secondary px-6 py-2 font-headline font-bold uppercase tracking-tighter active:scale-95 transition-transform duration-150">
+            GET A QUOTE
+        </button>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative monolith-gradient h-[614px] flex items-end overflow-hidden">
+<div class="absolute inset-0 opacity-40 grayscale mix-blend-overlay">
+<img class="w-full h-full object-cover" data-alt="dramatic wide shot of a massive industrial concrete structure with sharp geometric shadows and overhead cold lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0TQWjg5ZXPA9hNPd24j71Ks4JQhaq2MYkeOljdZeSfd4oKSrpYVQP7fY7gL7gRWKC1aZ0CgqxLllbq28tLtIoNhFPmWYuyuYdUzzXQUEuu_61WX228O1dXeFQ_oeK2Tgj04y6RSf7BIsK_nYSQ82zGRm8YVmRhPD5Y4FEzIz2Du-l4XIgLJSm7Y9onywy6pEXoQ6RqzTQCFbyey25SKzVE9Da-1Bm-hO980Olld4y2ib3-ZKeHxrjEqw_mwkw2dOlgOMhXj2Q6OG1"/>
+</div>
+<div class="relative z-10 w-full px-8 pb-16">
+<h1 class="font-headline text-[5rem] md:text-[8rem] font-black text-white leading-none tracking-tighter uppercase mb-4">
+                    OUR SERVICES
+                </h1>
+<div class="h-4 w-48 bg-secondary"></div>
+</div>
+</section>
+<!-- Services Bento Grid -->
+<section class="px-8 py-24 max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Garage Floor Coatings - Large Feature -->
+<div class="md:col-span-8 bg-surface-container-low group overflow-hidden flex flex-col md:flex-row h-full">
+<div class="w-full md:w-1/2 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="immaculate modern residential garage with high-gloss grey epoxy floor coating reflecting a luxury vehicle under bright LED panel lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeAaICYHH5hnx12eU5y3QHhiUVAHRMVy72n_OhfZRlNfUX-ifpWf59zus-qkF4xj1mfybAMr8cRXh8rzfwfZGaDkxH6DwDtWH7fkCKXpW1h6y-QSfgrs9kAGMqesMVZ0VZb8WIL8Tx4ewsbivginxwL4XiNQfzh-JJD8Zae84qALGrfbt2BmTjl3LeboAs7AMCBRheZXyU4EejSRfwix25vMo2_mxjlxcBtOSJWKkhEk3nCo_IZ-QjMm8_hufqFlK3xyql8I0ds-sj"/>
+</div>
+<div class="w-full md:w-1/2 p-12 flex flex-col justify-center">
+<span class="font-label text-secondary font-black tracking-widest text-sm mb-4 uppercase">RESIDENTIAL</span>
+<h2 class="font-headline text-4xl font-bold mb-6 text-primary tracking-tighter leading-tight uppercase">Garage Floor Coatings</h2>
+<p class="text-on-surface-variant mb-8 text-lg">Benefits: chemical & oil resistant, high-gloss finish. Process: prep, primer, polyaspartic topcoat. Typical lifespan: 15–25 years with proper maintenance.</p>
+<a class="flex items-center gap-2 font-headline font-bold text-primary group-hover:text-secondary transition-colors" href="#">
+                            EXPLORE SYSTEM <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Patio Coatings - Vertical Tall -->
+<div class="md:col-span-4 bg-primary text-white p-12 flex flex-col justify-end min-h-[500px] relative">
+<div class="absolute inset-0 opacity-30 grayscale">
+<img class="w-full h-full object-cover" data-alt="outdoor luxury patio with textured concrete finish overlooking a minimalist garden landscape at dusk with atmospheric lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDALgJyJT8E5zQG2laXh9jhLmTd8LaLOm6w5N4PgcWQaELBDxNaO4AOioZCNBbOZd4mxePJc30bOTHF78ryrJ6BVGcpY1_J6swnP6ZgA-HPnT5sLXP6mLgz9b2w-KiUMiPFdPVmQgKF_031_HyusW0QnE0KwSkr7sTCK3CxKG9cmYS3aSWiJwmQsjLkDiRr41qOT4_Rk0PQiGdtmb_cxtt-4KOdlfAjME9c4qHVwyopvynwaHm-6QgbepaBqBKM0quo0XT9yYzX1ffs"/>
+</div>
+<div class="relative z-10">
+<h2 class="font-headline text-4xl font-black mb-4 uppercase tracking-tighter">Patio & Outdoor Coatings</h2>
+<p class="font-body text-surface-container-highest mb-6">Benefits: slip-resistant, UV-stable, cool-to-touch finishes. Process: surface profiling, UV-stable binder, textured topcoat. Lifespan: 10+ years outdoors.</p>
+<button class="bg-secondary-container text-on-secondary px-8 py-3 font-headline font-bold tracking-tighter uppercase w-full">
+                            VIEW FINISHES
+                        </button>
+</div>
+</div>
+<!-- Commercial Floor Solutions - Wide -->
+<div class="md:col-span-6 bg-surface-container-highest p-12 group">
+<div class="flex justify-between items-start mb-12">
+<h2 class="font-headline text-4xl font-bold text-primary tracking-tighter uppercase leading-none">Commercial Floor Solutions</h2>
+<span class="material-symbols-outlined text-5xl text-secondary-container">factory</span>
+</div>
+<p class="text-on-surface-variant mb-12 max-w-md">Benefits: engineered for heavy loads, chemical exposure, and continuous traffic. Process: moisture mitigation, high-build primer, seamless topcoat. Lifespan: 10–30 years depending on system.</p>
+<div class="h-[300px] w-full bg-white mb-8 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="vast commercial warehouse floor with reflective polished grey concrete surface and industrial metal racking" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWYl874Q_uv-dgMmCFNCKOYuSRuBpniWSl8bKzgV2YhoL08SNbDNL7oSruUpCGAIqVPhZQpts_XJkUywkDHGDP3HHJvG1cqxh0vgdvHdxxo1Tit51ELHbp1fQeb1uIrPBvaEQKMVbjIkZpGin5NYliHE3BmVa-3_dFzpiLdXiTxv77Vynm-PrckydyQVTLuc6_ct6GIVCjydgB_tsWWF963JsDp9grTpf0pG113Sc3JwIYRKVagaifPOz4VpXIhX0GEz_Pan00msiA"/>
+</div>
+</div>
+<!-- Basement Floor Solutions - Focused -->
+<div class="md:col-span-6 bg-white border-l-8 border-secondary p-12 flex flex-col justify-between">
+<div>
+<h2 class="font-headline text-4xl font-bold text-primary tracking-tighter uppercase mb-6">Basement Floor Solutions</h2>
+<p class="text-on-surface-variant mb-8 text-lg">Benefits: moisture-mitigation, thermal comfort, waterproof membranes. Process: prep & testing, vapor barrier, finish coat. Lifespan: 10–20 years depending on conditions.</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-6 bg-surface-container flex flex-col">
+<span class="font-headline font-black text-2xl text-primary">100%</span>
+<span class="font-label text-xs uppercase text-outline">Waterproof</span>
+</div>
+<div class="p-6 bg-surface-container flex flex-col">
+<span class="font-headline font-black text-2xl text-primary">24H</span>
+<span class="font-label text-xs uppercase text-outline">Cure Time</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="bg-primary-container py-32 px-8 text-white">
+<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-2/3">
+<h2 class="font-headline text-5xl md:text-7xl font-black tracking-tighter leading-none uppercase mb-8">
+                        READY TO UPGRADE YOUR SURFACE?
+                    </h2>
+<p class="font-body text-xl text-surface-container-highest max-w-2xl mb-12">
+                        Join thousands of homeowners and businesses who have secured their investment with the industry's most resilient coating system.
+                    </p>
+</div>
+<div class="w-full md:w-1/3 flex flex-col gap-4">
+<button class="bg-secondary-container text-on-secondary px-10 py-6 text-2xl font-headline font-black tracking-tighter uppercase hover:bg-secondary transition-all active:scale-95">
+                        GET A FREE ESTIMATE
+                    </button>
+<p class="text-center font-label text-sm tracking-widest text-outline-variant">
+                        NO OBLIGATION • ONSITE INSPECTION
+                    </p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-[#00003c] dark:bg-[#00003c] border-t-8 border-[#eb0000] flex flex-col md:flex-row justify-between items-center px-8 py-12 gap-6">
+<div class="text-xl font-black text-white font-headline">EAGLE CONCRETE</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Work_Sans'] text-xs uppercase tracking-widest font-semibold text-slate-400 hover:text-white transition-colors" href="#">PRIVACY POLICY</a>
+<a class="font-['Work_Sans'] text-xs uppercase tracking-widest font-semibold text-slate-400 hover:text-white transition-colors" href="#">TERMS OF SERVICE</a>
+<a class="font-['Work_Sans'] text-xs uppercase tracking-widest font-semibold text-slate-400 hover:text-white transition-colors" href="#">WARRANTY</a>
+<a class="font-['Work_Sans'] text-xs uppercase tracking-widest font-semibold text-slate-400 hover:text-white transition-colors" href="#">CONTACT</a>
+</div>
+<div class="font-['Work_Sans'] text-xs uppercase tracking-widest font-semibold text-slate-400">
+            © 2024 EAGLE CONCRETE COATINGS. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+</body></html>
